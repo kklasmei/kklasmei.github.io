@@ -1,0 +1,40 @@
+body {
+    background-color: #cde6bc;
+    font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    /* background-image: url(../img/cheeseburger.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-size: contain; */
+    text-align: center;
+    padding: 0;
+    margin:0;
+}
+
+div {
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.helloworld {
+    background-color: yellow;
+    font-family: Times;
+    position: absolute;
+    z-index: 100px;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid blue;
+}
+
+a:hover {
+    color: red;
+    cursor: pointer;
+}
