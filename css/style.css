@@ -15,15 +15,12 @@ body {
 }
 
 div {
-    background-color: white;
-    width: 300px;
-    margin: 0 auto;
+    font-family: Times;
+    z-index: 100px;
 }
 
 .helloworld {
-    background-color: yellow;
     font-family: Times;
-    position: absolute;
     z-index: 100px;
 
 }
