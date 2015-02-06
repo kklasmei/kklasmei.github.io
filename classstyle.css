@@ -17,6 +17,11 @@ body {
 	top: 0px;
 	padding: 25px;
 	overflow: auto;
+	opacity: .9;
+}
+
+.sidebar p {
+    margin: 90px 0px;
 }
 
 ul {
