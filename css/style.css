@@ -12,6 +12,14 @@ body {
     margin: 30px;
 }
 
+.column:hover {
+background-color: red 
+}
+
+.column:active {
+    background-color:blue;
+}
+
 .box {
     width: 200px;
     height: 100px;
