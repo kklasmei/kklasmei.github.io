@@ -66,14 +66,14 @@ a:hover, a:active {
     color: #0099cc;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
 .content {
     padding-left: 40px;
     padding-top: 50px;
     }
 }
 
-@media (min-width: 401px) {
+@media (min-width: 481px) {
 .content {
     padding-left: 130px;
     padding-top: 50px;
