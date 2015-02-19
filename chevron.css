@@ -76,14 +76,14 @@ a:hover, a:active {
 }
 
 @media (max-width: 480px) {
-.content {
+.content container{
     padding-left: 40px;
     padding-top: 50px;
     }
 }
 
 @media (min-width: 481px) {
-.content {
+.content container{
     padding-left: 130px;
     padding-top: 50px;
 }
