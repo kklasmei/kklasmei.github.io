@@ -1,6 +1,6 @@
 var star = "*";
 
-for (var myVar = 1; myVar <= 10; myVar++) {
+for (var myVar = 10; myVar <= 10; myVar++) {
   star = star + "*";
   console.log(star);
   var emoji = ":)";
