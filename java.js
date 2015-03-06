@@ -5,7 +5,7 @@ for (var myVar = 10; myVar <= 10; myVar++) {
   console.log(star);
   var emoji = ":)";
 
-  for (var myVar2 = 10; myVar2 < 20; myVar2++) {
+  for (var myVar2 = 10; myVar2 < 1; myVar2++) {
     emoji = emoji + ":)";
     if (myVar2 == 10) {
       emoji = ":)";
