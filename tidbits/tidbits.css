@@ -1,10 +1,18 @@
+@font-face {
+  font-family: 'Archer-Medium';
+  src: url('Archer-Medium/Archer-Medium.eot?#iefix') format('embedded-opentype'),  url('Archer-Medium/Archer-Medium.otf')  format('opentype'),
+	     url('Archer-Medium/Archer-Medium.woff') format('woff'), url('Archer-Medium.ttf')  format('truetype'), url('Archer-Medium/Archer-Medium.svg#Archer-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1 {
     text-align: center;
     font-size: 80;
     padding-top: 10;
     margin-bottom: -10;
     margin-top: 0;
-    font-family: Archer;
+    font-family: 'Archer-Medium';
     opacity: .6;
     background-color: #565656;
     color: transparent;
@@ -17,7 +25,7 @@ h1 {
 h2 {
     text-align: center;
     font-size: 14;
-    font-family: Archer;
+    font-family: 'Archer-Medium';
     opacity: .6;
     background-color: #565656;
     padding-bottom: 8;
@@ -64,11 +72,16 @@ hr {
 	position: absolute;
 
 }
-
+.test {
+    font-size: 68px !important;
+}
+option {
+    font-size: 30px;
+}
 .bar {
 		margin: 0;
 		padding: 2px 10px;
-		font-family: Archer;
+		font-family: 'Archer-Medium';
 		font-size: 12px;
 		border: 2px solid #99c7c8; border-right: 0px;
 		border-top-left-radius: 5px 5px;
@@ -83,7 +96,7 @@ hr {
 .button {
 		margin: 0;
 		padding: 3px 3px;
-		font-family: Archer;
+		font-family: 'Archer-Medium';
 		font-size: 12px;
 		cursor: pointer;
 		text-align: center;
@@ -111,7 +124,7 @@ hr {
 	}
 	
 p1 {
-    font-family: Archer-Bold;
+    font-family: 'Archer-Medium';
     float: left;
     font-size: 25;
     padding-top: 20px;
