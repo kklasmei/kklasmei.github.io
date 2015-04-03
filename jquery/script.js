@@ -51,8 +51,50 @@ Hint: you will want to store the current state of the button in a variable.
 Now that we have stored the status of our button, let's show the user an image if the mouse over our green "GO" box.
 
 If the user has activated the button, toggle the visibility of id "cat" to reveal our animated leopard.
+-----------------
+
+load java scripts at end of html page before closing body tag
+download jquery file from jquery.com or htmlfile boilerplate (first script in html)
+edit in main.js
+build button in html, class=mybutton, class stage for images
+put images in html
+
+var images = ["cat.img", "cat2.img", "cat3.img", "cat4.img"];
+
+var currenting = false;
+
+
+console.log(randoming);
+$(".mybutton").click(function() {
+    var randoming = images[Math.floor(Math.random()*images.length)];
+    
+    while (randoming = currenting){
+        randoming = images[Math.floor(Math.random()*images.length)];
+    }
+    
+    currenting = randoming;
+    
+$(".stage").html(<img src= 'img/ " + randoming + "'>);
+});
+
+for adding 100 divs in html
+
+for (var = i = 0; i < 100; i ++) {
+    $("body").append("div class = 'box'>Hello</div>");
+}
+
+$(".box").each(function(){
+    var randposition = Math.floor(Math.random() * 1000) + "px";
+}
+
 
 */
+
+var my Array- define
+
+Math.floor(Math.random () * myArray.length);    whole numbers 0-myArray value
+
+My Array [Math.floor(Math.random () * myArray.length);]   randomizes
 
 
 
