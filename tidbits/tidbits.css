@@ -87,6 +87,7 @@ hr {
 		font-size: 12px;
 		cursor: pointer;
 		text-align: center;
+		outline: none;
 		color: #cbe5e3;
 		border: solid 1px #99c7c8; border-right:0px;
 		background: #99c7c8;
