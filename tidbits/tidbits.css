@@ -13,7 +13,6 @@ h1 {
     margin-bottom: -10;
     margin-top: 0;
     font-family: 'Archer-Medium';
-    opacity: .6;
     background-color: #565656;
     color: transparent;
     text-shadow: 0px 2px 3px rgba(167,219,219,.5);
@@ -27,7 +26,6 @@ h2 {
     text-align: center;
     font-size: 14;
     font-family: 'Archer-Medium';
-    opacity: .6;
     background-color: #565656;
     padding-bottom: 8;
     padding-top: -40;
@@ -41,14 +39,13 @@ h2 {
 }
 
 body {
- background: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#cbe5e3));
- background: -webkit-linear-gradient(#fff, #cbe5e3);
- background: -moz-linear-gradient(#fff, #cbe5e3);
- background: -o-linear-gradient(#fff, #cbe5e3);
- background: linear-gradient(#fff, #cbe5e3);
     margin: 0;
     padding: 0;
+ background-image: url("imgs/mayan.gif") center center no-repeat -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#cbe5e3));
+ background-image: url("imgs/mayan.gif"), -webkit-linear-gradient(#fff, #cbe5e3);
+ background-image: url("imgs/mayan.gif"), linear-gradient(#fff, #cbe5e3);
 }    
+
 
 hr {
     margin-bottom: 40;
