@@ -41,9 +41,12 @@ h2 {
 body {
     margin: 0;
     padding: 0;
- background-image: url("imgs/mayan.gif") center center no-repeat -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#cbe5e3));
- background-image: url("imgs/mayan.gif"), -webkit-linear-gradient(#fff, #cbe5e3);
+ background-image: url("imgs/mayan.gif"), no-repeat -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#cbe5e3)) fixed center;
+ background-image: url("imgs/mayan.gif"), -webkit-linear-gradient(#fff, #cbe5e3) fixed center;
  background-image: url("imgs/mayan.gif"), linear-gradient(#fff, #cbe5e3);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    
 }    
 
 
