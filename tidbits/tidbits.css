@@ -1,12 +1,4 @@
 @font-face {
-  font-family: 'Archer-Medium';
-  src: url('Archer-Medium/Archer-Medium.eot?#iefix') format('embedded-opentype'),  url('Archer-Medium/Archer-Medium.otf')  format('opentype'),
-	     url('Archer-Medium/Archer-Medium.woff') format('woff'), url('Archer-Medium.ttf')  format('truetype'), url('Archer-Medium/Archer-Medium.svg#Archer-Medium') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Archer-Light';
   src: url('Archer-Light/Archer-Light.eot?#iefix') format('embedded-opentype'),  url('Archer-Light/Archer-Light.otf')  format('opentype'),
 	     url('Archer-Light/Archer-Light.woff') format('woff'), url('Archer-Light/Archer-Light.ttf')  format('truetype'), url('Archer-Light/Archer-Light.svg#Archer-Light') format('svg');
@@ -21,7 +13,7 @@ h1 {
     margin-bottom: -10;
     margin-top: 0;
     font-family: 'Archer-Light';
-    color: #fff;
+    color: #000;
     cursor: default;
 }
 
@@ -29,32 +21,26 @@ h2 {
     text-align: center;
     font-size: 14;
     font-family: 'Archer-Light';
-    background-color: #000;
     padding-bottom: 8;
     padding-top: -40;
     margin: 0;
     cursor: default;
-    color: transparent;
-  -webkit-background-clip: text;
-     -moz-background-clip: text;
-          background-clip: text;
 }
 
 body {
     margin: 0;
     padding: 0;
- background-image: url("imgs/mayan.gif"), no-repeat -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#cbe5e3)) fixed center;
- background-image: url("imgs/mayan.gif"), -webkit-linear-gradient(#fff, #cbe5e3) fixed center;
- background-image: url("imgs/mayan.gif"), linear-gradient(#fff, #cbe5e3);
+ background-image: url("imgs/mayan.gif"), no-repeat -webkit-gradient(linear, 0 0, 0 100%, from(#d6d7ed), to(#cbe5e3)) fixed center;
+ background-image: url("imgs/mayan.gif"), -webkit-linear-gradient(#d6d7ed, #cbe5e3) fixed center;
+ background-image: url("imgs/mayan.gif"), linear-gradient(#d6d7ed, #cbe5e3);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
-    
 }    
 
 
 hr {
     margin-bottom: 40;
-    width: 75%;
+    width: 100%;
     color: #44dbdb;
     display: block;
     height: 0;
@@ -76,10 +62,9 @@ hr {
 
 #searchbody {
 	float: right;
-	padding-left: 75%;
+	padding-right: 2%;
 	padding-top: 20px;
-	margin-right: 20px;
-	position: absolute;
+	margin-right: 10px;
 }
 
 option {
@@ -89,7 +74,7 @@ option {
 .bar {
 		margin: 0;
 		padding: 1px 10px;
-		font-family: 'Archer-Medium';
+		font-family: 'Archer-Light';
 		font-size: 12px;
 		border: 2px solid #99c7c8; 
 		border-right: -7px;
@@ -104,7 +89,7 @@ option {
 
 .button {
 		margin: 0;
-		font-family: 'Archer-Medium';
+		font-family: 'Archer-Light';
 		cursor: pointer;
 		text-align: center;
 		outline: none;
@@ -145,12 +130,12 @@ input[value="search"] {
 	}
 	
 p1 {
-    font-family: 'Archer-Medium';
+    font-family: 'Archer-Light';
     float: left;
-    font-size: 25;
+    font-size: 20;
     padding-top: 20px;
-    margin-left: 20px;
-    padding-left: 4%;
+    margin-left: 10px;
+    padding-left: 2%;
     opacity: .6;
     background-color: #565656;
     color: transparent;
@@ -174,7 +159,7 @@ p1, #searchbody {
   background: #fff;
   width: 275px;
   height: 60px;
-  font-family: Archer-Medium;
+  font-family: 'Archer-Light';
   padding-left: 15px;
   font-size: 40px;
 	border: 2px solid #99c7c8;   border-radius: 10;
@@ -198,7 +183,7 @@ p1, #searchbody {
   background: #fff;
   width: 95px;
   height: 60px;
-  font-family: Archer-Medium;
+  font-family: 'Archer-Light';
   padding-left: 15px;
   font-size: 40px;
 	border: 2px solid #99c7c8;   border-radius: 10;
@@ -266,3 +251,6 @@ a:active {
   border-style: solid;
 }
 
+#top {
+    background-color: #fff;
+}
