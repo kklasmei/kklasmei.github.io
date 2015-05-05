@@ -296,6 +296,17 @@ a:active {
     opacity: .5;
     }
     
+#cashews{
+  border-radius: 50%;
+  border-color: #fff;
+  border-style: solid;
+  margin: 20px;
+}
+
+#cashews:hover {
+    opacity: .5;
+    }
+    
 #textcontent {
     display: table-cell;
     opacity: 0;
@@ -303,4 +314,10 @@ a:active {
 
 #textcontent:hover {
     opacity: 1;
+}
+
+#myArray.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }

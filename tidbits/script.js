@@ -22,7 +22,7 @@ if (clicked == false) {
 
 */
 
-var myArray = ['<img id="tavi" src="imgs/tavi.jpg" alt="tavi" height="145" width="145">', '<img id="worldsfair" src="imgs/worldsfair.jpg" alt="worldsfair" height="145" width="145">', '<img id="library" src="imgs/library.jpg" alt="library" height="145" width="145">', '<img id="kinder" src="imgs/kinder.jpg" alt="kinder" height="145" width="145">'];
+var myArray = ['<img id="tavi" src="imgs/tavi.jpg" alt="tavi" height="145" width="145">', '<img id="worldsfair" src="imgs/worldsfair.jpg" alt="worldsfair" height="145" width="145">', '<img id="library" src="imgs/library.jpg" alt="library" height="145" width="145">', '<img id="kinder" src="imgs/kinder.jpg" alt="kinder" height="145" width="145">', '<img id="cashews" src="imgs/cashews.jpg" alt="cashews" height="145" width="145">'];
 
 for (var i=0; i < 3; i++) {
     
