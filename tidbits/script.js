@@ -22,7 +22,7 @@ if (clicked == false) {
 
 */
 
-var myArray = ['<img id="tavi" src="imgs/tavi.jpg" alt="tavi" height="144" width="192">', '<img id="worldsfair" src="imgs/worldsfair.jpg" alt="worldsfair" height="144" width="222.1">', '<img id="library" src="imgs/library.jpg" alt="library" height="144" width="290.3">'];
+var myArray = ['<img id="tavi" src="imgs/tavi.jpg" alt="tavi" height="145" width="145">', '<img id="worldsfair" src="imgs/worldsfair.jpg" alt="worldsfair" height="145" width="145">', '<img id="library" src="imgs/library.jpg" alt="library" height="145" width="145">', '<img id="kinder" src="imgs/kinder.jpg" alt="kinder" height="145" width="145">'];
 
 for (var i=0; i < 3; i++) {
     
@@ -39,3 +39,4 @@ $( "#tavitext" ) .remove ();
 
 $( "#tavi.jpg" ).mouseenter(function() {
   $( "#tavitext" ).show () });
+  

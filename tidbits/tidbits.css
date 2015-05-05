@@ -260,8 +260,6 @@ a:active {
 }
 
 #tavi:hover {
-    height: 192px;
-    width: 256px;
     opacity: .5;
     }
     
@@ -284,6 +282,17 @@ a:active {
 }
 
 #worldsfair:hover {
+    opacity: .5;
+    }
+    
+#kinder{
+  border-radius: 50%;
+  border-color: #fff;
+  border-style: solid;
+  margin: 20px;
+}
+
+#kinder:hover {
     opacity: .5;
     }
     
