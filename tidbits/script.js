@@ -1,0 +1,41 @@
+/*var clicked = false;
+
+
+$ ( "#toggle" ).click(function() {
+if (clicked == false) {
+    $( "#status" ).html( "GO" );
+    $( "#status" ).css({"background-color" : "lime"});
+    $( "#toggle").html("Stop");
+    $( "#status" ).mousemove(function() { 
+        $( "#cat" ).show () });
+    clicked = true
+} else {
+    $( "#status" ).html( "STOP" );
+    $( "#status" ).css({"background-color" : "red"});
+    $( "#toggle").html("Start");
+    $( "#status" ).html(function() { 
+        $( "#cat").remove () });
+    clicked  = false
+}
+
+});
+
+*/
+
+var myArray = ['<img id="tavi" src="imgs/tavi.jpg" alt="tavi" height="144" width="192">', '<img id="worldsfair" src="imgs/worldsfair.jpg" alt="worldsfair" height="144" width="222.1">', '<img id="library" src="imgs/library.jpg" alt="library" height="144" width="290.3">'];
+
+for (var i=0; i < 3; i++) {
+    
+    var imgtoappend = Math.floor(Math.random() * myArray.length);
+    console.log("imgtoappend = " + imgtoappend);
+    console.log("APPEND THIS IMAGE: " + myArray[imgtoappend]);
+    $(".imgs").append(myArray[imgtoappend]);
+        console.log(myArray);
+    myArray.splice(imgtoappend, 1);
+        console.log(myArray);
+}
+
+$( "#tavitext" ) .remove ();
+
+$( "#tavi.jpg" ).mouseenter(function() {
+  $( "#tavitext" ).show () });
