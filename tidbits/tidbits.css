@@ -257,6 +257,9 @@ a:active {
   border-color: #fff;
   border-style: solid;
   margin: 20px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #tavi:hover {
@@ -268,6 +271,9 @@ a:active {
   border-color: #fff;
   border-style: solid;
   margin: 20px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #library:hover {
@@ -279,6 +285,9 @@ a:active {
   border-color: #fff;
   border-style: solid;
   margin: 20px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #worldsfair:hover {
@@ -290,6 +299,9 @@ a:active {
   border-color: #fff;
   border-style: solid;
   margin: 20px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #kinder:hover {
@@ -301,6 +313,9 @@ a:active {
   border-color: #fff;
   border-style: solid;
   margin: 20px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #cashews:hover {
@@ -316,8 +331,8 @@ a:active {
     opacity: 1;
 }
 
-#myArray.displayed {
+.myArray {
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
