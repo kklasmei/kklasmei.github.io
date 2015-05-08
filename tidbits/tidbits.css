@@ -262,9 +262,6 @@ a:active {
     margin-right: auto;
 }
 
-#tavi:hover {
-    opacity: .5;
-    }
     
 #library {
   border-radius: 50%;
@@ -276,10 +273,6 @@ a:active {
     margin-right: auto;
 }
 
-#library:hover {
-    opacity: .5;
-    }
-
 #worldsfair {
   border-radius: 50%;
   border-color: #fff;
@@ -289,10 +282,6 @@ a:active {
     margin-left: auto;
     margin-right: auto;
 }
-
-#worldsfair:hover {
-    opacity: .5;
-    }
     
 #kinder{
   border-radius: 50%;
@@ -303,10 +292,6 @@ a:active {
     margin-left: auto;
     margin-right: auto;
 }
-
-#kinder:hover {
-    opacity: .5;
-    }
     
 #cashews {
   border-radius: 50%;
@@ -318,9 +303,15 @@ a:active {
     margin-right: auto;
 }
 
-#cashews:hover {
-    opacity: .5;
-    }
+#rome {
+  border-radius: 50%;
+  border-color: #fff;
+  border-style: solid;
+  margin: 20px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
     
 #textcontent {
     display: table-cell;
