@@ -1,15 +1,19 @@
-* {
-    box-sizing: border-box;
-}
-
 html, body {
     margin:0;
     padding:0;
 }
 
+h1 {
+    font-family: Helvetica;
+}
+
 body {
-    background-color: #cde6bc;
+    background-image: url(classpage/chevron.png);
     margin: 30px;
+}
+
+p1 {
+    font-family: Helvetica;
 }
 
 .column:hover {
@@ -35,4 +39,13 @@ background-color: red
     width: 100px;
     background-color: lime;
     float: left;
+}
+
+a:link {
+    font-family: Helvetica;
+    color: black;
+}
+
+a:visited {
+    color: teal;
 }
