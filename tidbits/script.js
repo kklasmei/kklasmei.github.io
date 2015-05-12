@@ -1,5 +1,5 @@
 
-var myArray = ['<img id="tavi" src="imgs/tavi.jpg" data-alt-src="himgs/tavi.jpg" class="tavi" height="200" width="200">', '<img id="worldsfair" src="imgs/worldsfair.jpg" data-alt-src="himgs/worldsfair.jpg" class="worldsfair" height="200" width="200">', '<img id="library" src="imgs/library.jpg" data-alt-src="himgs/library.jpg" class="library" height="200" width="200">', '<img id="kinder" src="imgs/kinder.jpg" data-alt-src="himgs/kinder.jpg" class="kinder" height="200" width="200">', '<img id="cashews" src="imgs/cashews.jpg" data-alt-src="himgs/cashews.jpg" class="cashews" height="200" width="200">', '<img id="rome" src="imgs/rome.jpg" data-alt-src="himgs/rome.jpg" class="rome" height="200" width="200">', '<img id="mint" src="imgs/mint.jpg" data-alt-src="himgs/mint.jpg" class="mint" height="200" width="200">'];
+var myArray = ['<img id="tavi" src="imgs/tavi.jpg" data-alt-src="himgs/tavi.jpg" class="tavi" height="200" width="200">', '<img id="worldsfair" src="imgs/worldsfair.jpg" data-alt-src="himgs/worldsfair.jpg" class="worldsfair" height="200" width="200">', '<img id="library" src="imgs/library.jpg" data-alt-src="himgs/library.jpg" class="library" height="200" width="200">', '<img id="kinder" src="imgs/kinder.jpg" data-alt-src="himgs/kinder.jpg" class="kinder" height="200" width="200">', '<img id="cashews" src="imgs/cashews.jpg" data-alt-src="himgs/cashews.jpg" class="cashews" height="200" width="200">', '<img id="rome" src="imgs/rome.jpg" data-alt-src="himgs/rome.jpg" class="rome" height="200" width="200">', '<img id="mint" src="imgs/mint.jpg" data-alt-src="himgs/mint.jpg" class="mint" height="200" width="200">','<img id="one" src="imgs/one.jpg" data-alt-src="himgs/one.jpg" class="one" height="200" width="200">'];
 
 for (var i=0; i < 3; i++) {
     
@@ -48,4 +48,8 @@ $(function () {
 
 $(function () {
     $('img.mint').hover(sourceSwap, sourceSwap);
+});
+
+$(function () {
+    $('img.one').hover(sourceSwap, sourceSwap);
 });

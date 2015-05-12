@@ -326,6 +326,16 @@ a:active {
     margin-left: auto;
     margin-right: auto;
 }
+
+#one {
+  border-radius: 50%;
+  border-color: #fff;
+  border-style: solid;
+  margin: 20px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
     
 #textcontent {
     display: table-cell;
